@@ -1,0 +1,48 @@
+<?xml version='1.0' encoding='utf-8' ?>
+<manifest manifest-version='0.1' xmlns='http://www.tableau.com/xml/extension_manifest'>
+  <worksheet-extension id='com.exthost.huevuong.compact-kpi-banner-2' extension-version='1.0.0'>
+    <default-locale>en_US</default-locale>
+    <name resource-id='name'/>
+    <description>Compact KPI Banner</description>
+    <author name='huevuong'
+            email='tieuhuevuong@gmail.com'
+            organization='huevuong'
+            website='https://ext.tableauops.com'/>
+    <min-api-version>1.12</min-api-version>
+    <source-location>
+      <url>https://ext.tableauops.com/x/8XwpXAymOjmat3nyPQnjBuYH/</url>
+    </source-location>
+    <icon>iVBORw0KGgoAAAANSUhEUgAAAEYAAABGCAYAAABxLuKEAAAFSElEQVR42u2c+1NUVRzA93/Ymmqm1aEHen21mtNDzRoza4wMUwZHE9YHiIyGjwytgJ0CyzeJCamIKJKW9tTxQbxfoviIIVLLwUhNBSLxB4jXt/meYa/3LPdxFnfP3o2zM98ZZs/3nnvuh+/3e77fs/cci4XxY7VJdqtNclptUqHVJrVYbRIEiLT0jhnHbrd462O1SQ6rTaoPIBBGgs/iuB8g9v8ZEDVA9v5YCQwQcbBCyRpAUFySJSzFU8vpjSkwwMWuBqZegJHqhQuxuJSwFhWrEbFFI9b0psoCBi1OS28dIWDQUmgJsIKQW+FpERDURYARYAQY/4EZLI2FkvJT0NXVBd3d3UR6enqI4N+Jyeu5PUBM3HvyGJSCYztdfR6eGPkcPzBxqz5UHYxLeIJZHBevO5aEj9bxA4MP7rpxZ2cXFJdVQl5+sSyORXHcwISGO6h7F5aUw78dHfL4Nm3N4Acm4eN7YC7U1JouPhSVVsjj2/hZun/AVJ/72XRgfios9b/FmB2MsBizg5k+ax7s+/KQLHtzvyai/M5dsH1WZAzVz+MjnoU1iSkkoF79owFuNzZB/dUGOJlfBPEJyRA07BnzuZJyVnIHgw+jN31qScr6VLmPOfNjobGpWVf/1u1GCI9cFDgx5v2ktfcFJjwimppulQmb+3eoF/Z2VJ/x5RWUmM9iJr4aCqsTkylBV1E+UEbmXuIOSpkcEgaDhj4Nf928RcHYmZUDL7zyJnGtcZNCIH1XNsmdXDrXb9wk15kejJpERC2lwITMnKuqt3KNk9LbkLpdVe/TTWmU3vL4JPPFmLPnawz1I6PfYQJTUFwm69xpbQXbkDGqeo8Gj4Z/7rTKumghprMYb4F5YNAwaP675d7D5hczT8nofqYAozTlM2cvGOpj7WQEBuOEMsDu2J2j22fWvgOybkdnJzzy2Ci57Xhegdy2fecePmAmTgmFP6/dkG+cvf+gx2DeCIvoo/PkqOcpndTPd+j2mZaeSQVpZQBW/uOampph6vQ5vgOTc+AwKRiVMwLmGmPGT/HYldTABNvHUzpbtn3hERhcI5L7emocSQaV7Zd+uwKHvv3R+2Ba796lBo4ZKAsUVjBD3MBsTus/GJShoyfAd0eO98mFfA6mvb2dmGx/wKjFGE/BbMvYrQvmA+cn0NbW1icp9DoYfBhMxHC5UDmgBYuXmw7MjNkLqECOIQBLFazjfBZ8Hxw8nIr6RtMqKxj3WSkzO1e3Tyw+laXBw0Ej5baDh7+X26qqz1Ft3GollumaNcFTlgNlFVW6fVZWVcu6Ddeua+Y4RrObX9djWMH8cPQEFcPQvdT0cAbDdpcuXqeV4Bm5pF/BsNZKUUvepfRyv/qGuK57huxelEYvXWU+MN50pYeCRkDdxcuULsYzXIqYMHkaWWI4ciyPar/8+xUq6w0oi2HJY1zy0mtvkQKSZQ0H9V5+PUx3PYYrGE+XHeYuXMIMBmXS1JlQW3dRF8ovv14iemrXBwyY4WNfhPkxy2Bh7AoiWkHV3a1mz4sl0zYuR+C0iz+m7dqzn6wPY7vWtQEDhrdgbuV3MCzBlzsYYTHGFmNUpfsMTE1tnal/u+YKRjldY31TceoMCYwYJFEw0PKCgIWh6744hvLK09SaEVdXMno/xrl2IzcwsctW644lKWUD3zeq8otKVX8EM8uLQ643qoIZUgPxDp4AI8D4FIx4ZV7jlXmxyUJjk4XYlqOxLUds5NLaNCq2/mlsGBWbRXX2XwurUdleLDaN6mxIFy5lcPiFOPRCHH7h2TEp4mAdcRST186qGlCHd/0HBXRxX0O9BBYAAAAASUVORK5CYII=</icon>
+    <encoding id='date'>
+      <display-name>Date</display-name>
+      <data-spec>
+        <data-type>temporal</data-type>
+      </data-spec>
+      <role-spec>
+        <role-type>discrete-dimension</role-type>
+        <role-type>continuous-dimension</role-type>
+      </role-spec>
+      <fields max-count='1'/>
+      <encoding-icon token='letter-d'/>
+      <tooltip>The date field to bucket by Year / Month / Week</tooltip>
+    </encoding>
+    <encoding id='measure'>
+      <display-name>Measure</display-name>
+      <data-spec>
+        <data-type>numeric</data-type>
+      </data-spec>
+      <role-spec>
+        <role-type>continuous-measure</role-type>
+        <role-type>discrete-measure</role-type>
+      </role-spec>
+      <fields max-count='1'/>
+      <encoding-icon token='metric'/>
+      <tooltip>The metric to show as the headline number</tooltip>
+    </encoding>
+  </worksheet-extension>
+  <resources>
+    <resource id='name'>
+      <text locale='en_US'>Compact KPI Banner</text>
+    </resource>
+  </resources>
+</manifest>
