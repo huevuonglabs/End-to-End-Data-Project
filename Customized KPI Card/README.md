@@ -1,19 +1,15 @@
-Custom KPI Card Viz Extension for Tableau with Claude Code
+# Custom KPI Card Viz Extension for Tableau with Claude Code
 
 Build reusable, customizable KPI cards for Tableau using a Tableau Viz Extension and Claude Code — from source data to a working KPI card in minutes.
 
-Why I Built This
+## Why I Built This
 
 Designing KPI cards for a new dashboard used to take almost a full day:
 
-Pulling and preparing metrics
-Creating multiple calculated fields
-Formatting values
-Designing the layout
-Repeating the process for every new dashboard
+- Pulling and preparing metrics
+- Creating multiple calculated fields
+- Formatting values
+- Designing the layout
+- Repeating the process for every new dashboard
 
 The process was repetitive and time-consuming, especially when working with new datasets.
-
-So I experimented with using Claude Code to build a custom Tableau Viz Extension that generates KPI cards directly from source data.
-
-What previously took a day can now be done in minutes.
